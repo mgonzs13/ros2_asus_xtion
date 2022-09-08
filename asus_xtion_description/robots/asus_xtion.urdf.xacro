@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<robot name="asus_xtion" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+    <!-- Include macros -->
+    <xacro:include filename="$(find asus_xtion_description)/urdf/asus_xtion.urdf.xacro"/>
+
+    <!-- The base link -->
+    <link name="base_link"/>
+
+    <!-- camera -->
+    <xacro:sensor_asus_xtion parent="base_link" name="openni">
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </xacro:sensor_asus_xtion>
+
+</robot>
