@@ -1,4 +1,0 @@
-[submodule "openni2_camera"]
-	path = openni2_camera
-	url = https://github.com/mikeferguson/openni2_camera.git
-	branch = ros2

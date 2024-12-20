@@ -5,9 +5,8 @@
 ```shell
 $ cd ~/ros2_ws/src
 $ git clone --recurse-submodules https://github.com/mgonzs13/ros2_asus_xtion
-$ sudo apt install ros-humble-depth-image-proc
 $ cd ~/ros2_ws
-$ rosdep install --from-paths . --ignore-src
+$ rosdep install --from-paths src --ignore-src -r -y
 $ colcon build
 ```
 
