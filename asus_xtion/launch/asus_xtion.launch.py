@@ -1,4 +1,4 @@
-# Copyright (C) 2023  Miguel Ángel González Santamarta
+# Copyright (C) 2023 Miguel Ángel González Santamarta
 # All rights reserved.
 #
 # Software License Agreement (BSD License 2.0)
