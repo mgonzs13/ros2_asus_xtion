@@ -4,7 +4,7 @@
 
 ```shell
 $ cd ~/ros2_ws/src
-$ git clone --recurse-submodules https://github.com/mgonzs13/ros2_asus_xtion
+$ git clone https://github.com/mgonzs13/ros2_asus_xtion
 $ cd ~/ros2_ws
 $ rosdep install --from-paths src --ignore-src -r -y
 $ colcon build
