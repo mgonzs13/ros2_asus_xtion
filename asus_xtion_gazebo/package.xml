@@ -6,13 +6,12 @@
   <description>TODO: Package description</description>
   <maintainer email="mgons@unileon.es">Miguel Ángel González Santamarta</maintainer>
   <license>GPL-3</license>
-
   <buildtool_depend>ament_cmake</buildtool_depend>
-
-  <depend>gazebo</depend>
   <depend>gazebo_ros</depend>
+  <depend>gazebo_ros2_control</depend>
+  <depend>gazebo_ros_pkgs</depend>
+  <depend>gazebo_plugins</depend>
   <depend>asus_xtion_description</depend>
-
   <export>
     <build_type>ament_cmake</build_type>
     <gazebo_ros gazebo_model_path="${prefix}/models"/>
